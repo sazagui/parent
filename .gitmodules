@@ -1,0 +1,7 @@
+[submodule "exchange/pubsub/pubsub1"]
+	path = exchange/pubsub/pubsub1
+	url = https://github.com/sazagui/pubsub1.git
+[submodule "exchange/pubsub/pubsub2"]
+	path = exchange/pubsub/pubsub2
+	url = https://github.com/sazagui/pubsub2.git
+	branch = develop
