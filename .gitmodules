@@ -5,3 +5,6 @@
 	path = exchange/pubsub/pubsub2
 	url = https://github.com/sazagui/pubsub2.git
 	branch = develop
+[submodule "exchange/consumer/consumer"]
+	path = exchange/consumer/consumer
+	url = https://github.com/sazagui/consumer.git
