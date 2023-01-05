@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
 	<artifactId>parent-project</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<version>1.0-SNAPSHOT</version>
 	<name>parent-project</name>
 	<url>http://maven.apache.org</url>
@@ -15,5 +15,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+	<modules>
+	  <module>exchange/consumer/consumer</module>
+  </modules>
 </project>
