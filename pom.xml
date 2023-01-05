@@ -16,8 +16,6 @@
 		</dependency>
 	</dependencies>
 	<modules>
-		<module>pubsub</module>
-	  <module>kafka</module>
-	  <module>exchange/consumer</module>
+	  <module>exchange/consumer/consumer</module>
   </modules>
 </project>
