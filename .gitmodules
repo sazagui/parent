@@ -7,4 +7,4 @@
 	branch = develop
 [submodule "exchange/consumer/consumer"]
 	path = exchange/consumer/consumer
-	url = git@github.com-consumer:sazagui/consumer.git
+	url = git@github.com:sazagui/consumer.git
