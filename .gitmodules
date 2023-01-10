@@ -1,6 +1,7 @@
 [submodule "exchange/pubsub/pubsub1"]
 	path = exchange/pubsub/pubsub1
 	url = https://github.com/sazagui/pubsub1.git
+	branch = develop
 [submodule "exchange/pubsub/pubsub2"]
 	path = exchange/pubsub/pubsub2
 	url = https://github.com/sazagui/pubsub2.git
@@ -8,3 +9,4 @@
 [submodule "exchange/consumer/consumer"]
 	path = exchange/consumer/consumer
 	url = git@github.com:sazagui/consumer.git
+	branch = master
