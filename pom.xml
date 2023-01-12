@@ -48,6 +48,7 @@
             <configuration>
                 <goals>package</goals>
                 <tagNameFormat>@{project.version}</tagNameFormat>
+                <remoteTagging>false</remoteTagging>
             </configuration>
         </plugin>
       </plugins>
