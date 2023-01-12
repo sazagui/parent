@@ -109,9 +109,6 @@
             <artifactId>maven-release-plugin</artifactId>
             <version>3.0.0-M7</version>
             <configuration>
-                <goals>pre-integration-test</goals>
-                <preparationGoals>package</preparationGoals>
-                <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                 <tagNameFormat>@{project.version}</tagNameFormat>
             </configuration>
         </plugin>
