@@ -36,6 +36,7 @@
 
 	<modules>
 	  <module>exchange/consumer/consumer</module>
+	  <module>exchange/pubsub/pubsub1</module>
   </modules>
 
   <build>
