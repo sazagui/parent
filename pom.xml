@@ -4,7 +4,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>parent-project</artifactId>
 	<packaging>pom</packaging>
-	<version>1.4</version>
+	<version>1.5-SNAPSHOT</version>
 	<name>parent-project</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
