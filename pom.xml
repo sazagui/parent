@@ -46,7 +46,7 @@
             <artifactId>maven-release-plugin</artifactId>
             <version>3.0.0-M7</version>
             <configuration>
-                <autoVersionSubmodules>false</autoVersionSubmodules>
+                <preparationGoals>clean install</preparationGoals>
                 <goals>package</goals>
                 <tagNameFormat>@{project.version}</tagNameFormat>
                 <remoteTagging>false</remoteTagging>
