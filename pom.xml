@@ -45,8 +45,9 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
-            <version>2.5.3</version>
+            <version>3.0.0-M7</version>
             <configuration>
+                <autoVersionSubmodules>false</autoVersionSubmodules>
                 <goals>package</goals>
                 <tagNameFormat>@{project.version}</tagNameFormat>
                 <remoteTagging>false</remoteTagging>
