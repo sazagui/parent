@@ -50,6 +50,7 @@
                 <releaseGoals>
                     <releaseGoal>install</releaseGoal>
                 </releaseGoals>
+                <privateKey>/Users/anfanesaoussane/.ssh/id_rsa</privateKey>
             </configuration>
         </plugin>
 
