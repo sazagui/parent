@@ -4,7 +4,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>parent-project</artifactId>
 	<packaging>pom</packaging>
-	<version>1.7</version>
+	<version>1.7-SNAPSHOT</version>
 	<name>parent-project</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
@@ -41,6 +41,18 @@
   <build>
     <pluginManagement>
       <plugins>
+
+        <plugin>
+            <groupId>com.github.danielflower.mavenplugins</groupId>
+            <artifactId>multi-module-maven-release-plugin</artifactId>
+            <version>3.6.1</version>
+            <configuration>
+                <releaseGoals>
+                    <releaseGoal>install</releaseGoal>
+                </releaseGoals>
+            </configuration>
+        </plugin>
+
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
