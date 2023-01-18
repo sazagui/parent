@@ -35,25 +35,13 @@
   </scm>
 
 	<modules>
-	  <module>exchange/pubsub/pubsub1</module>
-	  <module>exchange/consumer/consumer</module>
+	  <module>exchange/pubsub</module>
+	  <module>exchange/consumer</module>
   </modules>
 
   <build>
     <pluginManagement>
       <plugins>
-
-        <plugin>
-            <groupId>com.github.danielflower.mavenplugins</groupId>
-            <artifactId>multi-module-maven-release-plugin</artifactId>
-            <version>3.6.1</version>
-            <configuration>
-                <releaseGoals>
-                    <releaseGoal>install</releaseGoal>
-                </releaseGoals>
-                <privateKey>/Users/anfanesaoussane/.ssh/maven_test</privateKey>
-            </configuration>
-        </plugin>
 
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
@@ -63,7 +51,6 @@
                 <preparationGoals>clean install</preparationGoals>
                 <goals>package</goals>
                 <tagNameFormat>@{project.version}</tagNameFormat>
-                <remoteTagging>false</remoteTagging>
             </configuration>
         </plugin>
       </plugins>
