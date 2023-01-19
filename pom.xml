@@ -45,7 +45,7 @@
             <version>3.0.0-M7</version>
             <configuration>
                 <preparationGoals>clean install</preparationGoals>
-                <goals>package</goals>
+                <goals>install</goals>
                 <tagNameFormat>@{project.version}</tagNameFormat>
             </configuration>
         </plugin>
