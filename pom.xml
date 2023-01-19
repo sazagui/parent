@@ -34,10 +34,6 @@
       <tag>${project.version}</tag>
   </scm>
 
-	<modules>
-	  <module>exchange/pubsub</module>
-	  <module>exchange/consumer</module>
-  </modules>
 
   <build>
     <pluginManagement>
