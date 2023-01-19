@@ -4,14 +4,14 @@
 	<groupId>com.example</groupId>
 	<artifactId>consumer</artifactId>
 	<packaging>pom</packaging>
-	<version>1.7</version>
+	<version>1.8-SNAPSHOT</version>
 	<name>consumer</name>
 	<url>http://maven.apache.org</url>
 
   <parent>
 		<groupId>com.example</groupId>
 		<artifactId>parent-project</artifactId>
-		<version>1.21</version>
+		<version>1.22-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
 	</parent>
 
