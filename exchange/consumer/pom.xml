@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example</groupId>
 	<artifactId>consumer</artifactId>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<version>1.5</version>
 	<name>consumer</name>
 	<url>http://maven.apache.org</url>
